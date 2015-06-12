@@ -1,13 +1,38 @@
 .b-header {
-	margin-top: 100px;
-	margin-left: 0px;
-	margin-right: 0px;
+	 margin-top: 50px;
+	 margin-left: 465px;
+	 margin-right: 465px;
+	 padding-bottom: 120px;
+}
+.b-header h1 {
+	color: #1F2F56;
+	font-size: 27px;
+	font-weight: bold;
+	font-family: georgia;
+}
+.b-header p {
+	color: #BFBFBF;
+	font-size: 10px;
+	font-weight: regular;
+	font-family: georgia;
+}
+.b-header h4 {
+	color: #C2C2C2;
+	font-size: 14px;
+	font-weight: regular;
+	font-family: georgia;
+	margin-top: 40px;
+}
+.b-title  {
+	margin-left: 480px;
+	margin-right: 480px;
+	padding-bottom: 34px;
+	background-image:url('images/bg-title.png')
 }
 .b-title a {
-	color:#0096e6;
-}
-.b-title a {
-	display: inline;
-}
-	
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: georgia;
+	margin-left: 20px;
 }
