@@ -1,3 +1,13 @@
+.b-header {
+	margin-top: 100px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
 .b-title a {
 	color:#0096e6;
+}
+.b-title a {
+	display: inline;
+}
+	
 }
