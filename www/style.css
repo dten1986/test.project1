@@ -71,7 +71,7 @@
 	background: #4BC4F8;
 	padding: 20px;
 	padding-top: 10px;
-	padding-bottom: 50;
+	padding-right:12px;
 	opacity: 0.9;
 	float: left;
 	margin-top: 0px;
@@ -96,3 +96,105 @@
 	position: relative;
 	left: 20px;
 }
+.b-news {				
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.b-news .col-md-8 h1{ //новини фонду//;
+	color: #3F3C4C;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: georgia;
+	margin-bottom:25px;
+}
+.b-news .col-md-8 h2{ //14 січня//;
+	color: #7D7D7D;
+	font-size: 14px;
+	font-weight: regular;
+	font-family: georgia;
+}
+.b-news .col-md-8 a{ //оголошення про гранти//;
+	color: #07ACE4;
+	font-size: 18px;
+	font-weight: regular;
+	font-family: georgia;
+}
+.b-news .col-md-8 p{ 
+	color: #4C4646;
+	font-size: 14px;
+	font-weight: regular;
+	font-family: georgia;
+}
+.b-news .b-news-hl a{ //детальніше//;
+	color: #A5A5A5;
+	font-size: 11px;
+	font-weight: regular;
+	font-family: georgia;
+	float: right;
+	
+}
+.b-news .col-md-4 h1{
+	color: #3F3C4C;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: georgia;
+	padding-bottom:15px;
+}
+.b-news .col-md-4 p{
+	color: #4C4646;
+	font-size: 13px;
+	font-weight: regular;
+	font-family: georgia;
+}
+.b-news .col-md-4 h2{
+	color: #4C4646;
+	font-size: 16px;
+	font-weight: regular;
+	font-family: georgia;
+	padding-top:20px;
+}
+.b-news .col-md-4 .b-info-2 a{
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: georgia;
+	background-image:url('images/bg-news-r.png');
+	background-repeat:no-repeat;
+	padding-left: 20px;
+	padding-right:20px;
+	padding-top:5px;
+	padding-bottom:10px;
+}
+.b-news .col-md-4 .b-info-3 p {
+	padding-top:50px;
+	padding-bottom:260px;
+}
+.b-news .col-md-4 .b-info-4 h3 {
+	color: #888888;
+	font-size: 12px;
+	font-weight: regular;
+	font-family: georgia;
+	line-height: 0.3;
+}
+.b-down{
+	background-image:url('images/bg-down.png');
+	background-repeat:no-repeat;
+	padding-bottom: 400px;
+}
+.b-down li{
+	display: inline;
+}
+.b-down a {
+	color:#FFFFFF;
+	font-size: 14px;
+	font-weight: regular;
+	font-family: georgia;
+	margin-left:15px;
+}
+.b-down p {
+	color: #AEAEAE;
+	font-size: 16.4px;
+	font-weight: regular;
+	font-family: georgia;
+}
+
