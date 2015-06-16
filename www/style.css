@@ -176,14 +176,14 @@
 	font-family: georgia;
 	line-height: 0.3;
 }
-.b-down{
+.b-down {
 	background-image:url('images/bg-down.png');
 	background-repeat:no-repeat;
-	padding-bottom: 400px;
+	padding-bottom:1000px;
 }
 .b-down li{
 	display: inline;
-}
+}	
 .b-down a {
 	color:#FFFFFF;
 	font-size: 14px;
