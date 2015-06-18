@@ -80,26 +80,50 @@
 	background-image:url('images/bg-main-top_1.png');
 	background-repeat: repeat-x;
 }
+.b-main_item_1 a:hover{
+	background-image:url('images/bg-main-top_1_2.png');
+	background-repeat: repeat-x;
+	}
 .b-main_item_2 a{
 	background-image:url('images/bg-main-top_2.png');
 	background-repeat: repeat-x;
 }
+.b-main_item_2 a:hover{
+	background-image:url('images/bg-main-top_2_2.png');
+	background-repeat: repeat-x;
+	}
 .b-main_item_3 a{
 	background-image:url('images/bg-main-top_3.png');
 	background-repeat: repeat-x;
 }
+.b-main_item_3 a:hover{
+	background-image:url('images/bg-main-top_3_2.png');
+	background-repeat: repeat-x;
+	}
 .b-main_item_4 a{
 	background-image:url('images/bg-main-top_4.png');
 	background-repeat: repeat-x;
 }
+.b-main_item_4 a:hover{
+	background-image:url('images/bg-main-top_4_2.png');
+	background-repeat: repeat-x;
+	}
 .b-main_item_5 a{
 	background-image:url('images/bg-main-top_5.png');
 	background-repeat: repeat-x;
 }
+.b-main_item_5 a:hover{
+	background-image:url('images/bg-main-top_5_2.png');
+	background-repeat: repeat-x;
+	}
 .b-main_item_6 a{
 	background-image:url('images/bg-main-top_6.png');
 	background-repeat: repeat-x;
 }
+.b-main_item_6 a:hover{
+	background-image:url('images/bg-main-top_6_2.png');
+	background-repeat: repeat-x;
+	}
 .b-main_bottom {
 	width: 960px;
 	height: 425px;
