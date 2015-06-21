@@ -1,0 +1,39 @@
+<a class="b-button" href="#">
+	<span class="b-button__sliding">BUTTON</span>
+</a>
+
+<style>
+	.b-button
+		{
+		display: block;
+		float: left;
+		height: 23px;
+		padding: 0 5px 0 0;
+		background-image: url('bg-button-r.png');
+		background-position: right top;
+		background-repeat: no-repeat;
+		}
+		
+		.b-button:hover
+			{
+			background-position: right bottom;
+			}
+		
+		.b-button__sliding
+			{
+			display: block;
+			float: left;
+			height: 23px;
+			padding: 0 15px 0 20px;
+			font-size: 11px;
+			line-height: 23px;
+			background-image: url('bg-button-l.png');
+			background-position: left top;
+			background-repeat: no-repeat;
+			}
+			
+			.b-button__sliding:hover
+				{
+				background-position: left bottom;
+				}
+</style>
