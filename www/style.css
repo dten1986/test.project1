@@ -47,16 +47,17 @@
 	font-size: 10px;
 	font-weight: regular;
 	font-family: georgia;
+	margin-top:-12px;
 }
 .b-main {
 	width: 960px;
 	height:460px;
 }
-.b-main_item {
+.b-main_items {
 	width: 960px;
 	height:34px;
 }
-.b-main_item a{
+.b-main_items a{
 	display: block;
 	float:left;
 	width: 160px;
@@ -69,58 +70,58 @@
 	text-decoration: none;
 	padding-top:5px;
 }
-.b-main_item:hover,
-.b-main_item:active,
-.b-main_item:focus,
-.b-main_item:visited		{
+.b-main_items:hover,
+.b-main_items:active,
+.b-main_items:focus,
+.b-main_items:visited		{
 	color: #FFFFFF;
 	text-decoration: none;
 }
-.b-main_item_1 a{
+.b-main_item_1 {
 	background-image:url('images/bg-main-top_1.png');
 	background-repeat: repeat-x;
 }
-.b-main_item_1 a:hover{
+.b-main_item_1:hover{
 	background-image:url('images/bg-main-top_1_2.png');
 	background-repeat: repeat-x;
 	}
-.b-main_item_2 a{
+.b-main_item_2 {
 	background-image:url('images/bg-main-top_2.png');
 	background-repeat: repeat-x;
 }
-.b-main_item_2 a:hover{
+.b-main_item_2:hover{
 	background-image:url('images/bg-main-top_2_2.png');
 	background-repeat: repeat-x;
 	}
-.b-main_item_3 a{
+.b-main_item_3 {
 	background-image:url('images/bg-main-top_3.png');
 	background-repeat: repeat-x;
 }
-.b-main_item_3 a:hover{
+.b-main_item_3:hover{
 	background-image:url('images/bg-main-top_3_2.png');
 	background-repeat: repeat-x;
 	}
-.b-main_item_4 a{
+.b-main_item_4 {
 	background-image:url('images/bg-main-top_4.png');
 	background-repeat: repeat-x;
 }
-.b-main_item_4 a:hover{
+.b-main_item_4:hover{
 	background-image:url('images/bg-main-top_4_2.png');
 	background-repeat: repeat-x;
 	}
-.b-main_item_5 a{
+.b-main_item_5 {
 	background-image:url('images/bg-main-top_5.png');
 	background-repeat: repeat-x;
 }
-.b-main_item_5 a:hover{
+.b-main_item_5:hover{
 	background-image:url('images/bg-main-top_5_2.png');
 	background-repeat: repeat-x;
 	}
-.b-main_item_6 a{
+.b-main_item_6 {
 	background-image:url('images/bg-main-top_6.png');
 	background-repeat: repeat-x;
 }
-.b-main_item_6 a:hover{
+.b-main_item_6:hover{
 	background-image:url('images/bg-main-top_6_2.png');
 	background-repeat: repeat-x;
 	}
@@ -161,44 +162,44 @@
 	opacity: 0.9;
 	position: relative;
 }
-.b-main_bottom_button {
-	height: 34px;
-	padding-top:10px;
-}
-.b-main_bottom_button_l {
-	display: block;
-	float: left;
-	background: url('images/bg-main_button_l.png') no-repeat;
-	width: 11px;
-	height: 34px;
-}
-.b-main_bottom_button a {
-	color: #FFFFFF;
-	font-size: 18px;
-	font-weight: bold;
-	font-family: georgia;
-	display: block;
-	float: left;
-	background: url('images/bg-main_button.png') repeat-x;
-	height: 34px;
-	padding:10px;
-	text-align: center;
-	text-decoration: none;
-}
-.b-main_bottom_button_r {
-	display: block;
-	float: left;
-	background: url('images/bg-main_button_r.png') no-repeat;
-	width: 11px;
-	height: 34px;
-}
-.b-main_bottom_button:hover,
-.b-main_bottom_button:active,
-.b-main_bottom_button:focus,
-.b-main_bottom_button:visited		{
-		color: #FFFFFF;
-		text-decoration: none;
-}
+.b-main_button
+		{
+		display: block;
+		margin-top:10px;
+		float: left;
+		height: 34px;
+		padding: 0 5px 0 0;
+		background-image: url('images/bg-main__button-r.png');
+		background-position: right top;
+		background-repeat: no-repeat;
+		}
+		
+		.b-main_button:hover
+			{
+			background-image:url('images/bg-main__button-r_2.png');
+			}
+		
+		.b-main_button__sliding
+			{
+			display: block;
+			float: left;
+			height: 34px;
+			padding: 0 5px 0 20px;
+			color: #FFFFFF;
+			font-size: 18px;
+			font-weight: bold;
+			font-family: georgia;
+			line-height: 34px;
+			background-image: url('images/bg-main__button-l.png');
+			background-position: left top;
+			background-repeat: no-repeat;
+			}
+			
+			.b-main_button__sliding:hover
+				{
+				background-image:url('images/bg-main__button-l_2.png');
+				}
+
 .b-news {				
 	float:left;
 	width: 620px;
@@ -319,7 +320,7 @@
 	font-size: 14px;
 	font-weight: regular;
 	font-family: georgia;
-	margin-bottom:25px;
+	margin-bottom:15px;
 	line-height: 1.2;
 }
 .b-info_sections ul {
@@ -327,45 +328,44 @@
 	padding-left: 20px;
 	
 }
-.b-info_button {
-	height: 34px;
-	margin-bottom:60px;
-}
-.b-info_button_l {
-	display: block;
-	float: left;
-	background: url('images/bg-main_button_l.png') no-repeat;
-	width: 11px;
-	height: 34px;
-}
-.b-info_button a {
-	color: #FFFFFF;
-	font-size: 14px;
-	font-weight: bold;
-	font-family: georgia;
-	display: block;
-	float: left;
-	background: url('images/bg-main_button.png') repeat-x;
-	height: 34px;
-	padding:10px;
-	padding-top:5px;
-	text-align: center;
-	text-decoration: none;
-}
-.b-info_button_r {
-	display: block;
-	float: left;
-	background: url('images/bg-main_button_r.png') no-repeat;
-	width: 11px;
-	height: 34px;
-}
-.b-main_bottom_button:hover,
-.b-main_bottom_button:active,
-.b-main_bottom_button:focus,
-.b-main_bottom_button:visited		{
-		color: #FFFFFF;
-		text-decoration: none;
-}
+.b-info_button
+		{
+		display: block;
+		float: left;
+		height: 28px;
+		padding: 0 5px 0 0;
+		background-image: url('images/bg-info_button-r.png');
+		background-position: right top;
+		background-repeat: no-repeat;
+		margin-bottom:60px;
+		}
+		
+		.b-info_button:hover
+			{
+			background-image:url('images/bg-info_button-r_2.png');
+			}
+		
+		.b-info_button__sliding
+			{
+			display: block;
+			float: left;
+			height: 28px;
+			padding: 0 10px 0 15px;
+			color: #FFFFFF;
+			font-size: 14px;
+			font-weight: bold;
+			font-family: georgia;
+			line-height: 28px;
+			background-image: url('images/bg-info_button-l.png');
+			background-position: left top;
+			background-repeat: no-repeat;
+			}
+			
+			.b-info_button__sliding:hover
+				{
+				background-image:url('images/bg-info_button-l_2.png');
+				}
+
 .b-info_clicks {
 	width: 270px;
 	height:25px;
@@ -390,14 +390,15 @@
 	font-size: 12px;
 	font-weight: regular;
 	font-family: georgia;
-	margin-top: 310px;
+	margin-top: 415px;
+	margin-bottom:10px;
 }
 .b-CEI {
 	float:left;
 	width: 181px;
 	height:50px;
 	background-image:url('images/bg-CEI.png');
-	margin-left:8px;
+	margin-left:-12px;
 }
 .b-bottom {
 	clear: both;
