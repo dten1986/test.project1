@@ -520,10 +520,11 @@
 			padding-left: 10px;
 			}
 			
-	/*	.b-bottom_l-first li
+		.b-bottom_l li:first-child
 			{
 			padding: 0px;
-			}*/
+			background: none;
+			}
 	
 .b-bottom_r {
 	float:left;
